@@ -1,4 +1,4 @@
 resource "aws_s3_bucket" "codepipeline_artifacts" {
-  bucket = "codepipeline-artifacts-repository"
+  bucket = "codepipeline-artifacts-decano"
   acl    = "private"
 }
